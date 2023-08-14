@@ -2,7 +2,7 @@
 
 // We actually need 2 canvases, 1 for the view and 1 for the content.
 const imgCanvas = document.createElement('canvas')
-imgCanvas.width = 100; imgCanvas.height = 100
+imgCanvas.width = 1000; imgCanvas.height = 1000
 const imgctx = imgCanvas.getContext('2d')
 
 // Actual canvas drawn to the screen.
